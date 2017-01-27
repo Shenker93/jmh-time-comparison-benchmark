@@ -28,12 +28,10 @@ public class StreamsComputing {
     private List<Integer> largeSimilarDataSet;
     private List<Integer> xxlSimilarDataSet;
 
-
     private List<Integer> smallRandomDataSet;
     private List<Integer> midRandomDataSet;
     private List<Integer> largeRandomDataSet;
     private List<Integer> xxlRandomDataSet;
-
 
     @Benchmark
     public int countSumInLoopSmallSimilarDataSet() {
@@ -115,7 +113,6 @@ public class StreamsComputing {
         return countSumInStream(xxlRandomDataSet);
     }
 
-
     @Benchmark
     public List<Integer> filterInLoopSmallDataSet() {
         return filterListInLoop(smallRandomDataSet, x -> x % 2 == 0);
@@ -193,4 +190,6 @@ public class StreamsComputing {
     private List<Integer> buildDataSet(Supplier<Integer> dataElemSupplier, long size) {
         return Stream.generate(dataElemSupplier).limit(size).collect(toList());
     }
+
+
 }
