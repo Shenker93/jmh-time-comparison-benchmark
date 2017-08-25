@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Shenker93/jmh-time-comparison-benchmark.svg?branch=master)](https://travis-ci.org/Shenker93/jmh-time-comparison-benchmark)
+
 **INSTALLATION**
 
 Just use _mvn clean install_ command.
@@ -20,3 +22,6 @@ Also you can change BenchmarkMode
 
 You can also use command-line args to change this settings or specify another (use _-h_ to view full list).
 Comparing to annotations, command-line args have higher priority.
+
+Some benchmarks are available on travis-ci build page (benchmark is wrapped into junit test, see build icon on the top of readme). 
+However, according to some sources, such results accuracy can be lower, so it's better to use commands from _installation_ block.
