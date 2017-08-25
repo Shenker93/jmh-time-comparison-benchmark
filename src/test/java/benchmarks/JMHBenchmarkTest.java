@@ -9,7 +9,7 @@ import org.openjdk.jmh.runner.options.OptionsBuilder;
 /**
  * Actually starts JMH benchmark
  */
-public class JMHBenchmark {
+public class JMHBenchmarkTest {
 
     @Test
     public void startBenchmark() throws RunnerException{
