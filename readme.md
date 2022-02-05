@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/Shenker93/jmh-time-comparison-benchmark.svg?branch=master)](https://travis-ci.org/Shenker93/jmh-time-comparison-benchmark)
+![Build Status](https://github.com/Shenker93/jmh-time-comparison-benchmark/actions/workflows/benchmark_run.yml/badge.svg)
 
 **INSTALLATION**
 
